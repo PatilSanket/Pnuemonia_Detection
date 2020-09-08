@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pneumonia Detection</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+ /* background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("/Desktop/BE/
+  pic.jpg");*/
+  /*background: url(https://wallpapercave.com/wp/5DMx8Xb.jpg);*/
+  background-image: url("https://i.pinimg.com/originals/19/97/a0/1997a09ac1061bce1e2070872444a44d.jpg");
+  background-color: #cccccc;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-90%, -90%);
+  color: white;
+}
+input[type=file] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  width: 200px;
+  color: white;
+  justify-content: left;
+  align-items: left;
+  text-align: center;
+  box-sizing: border-box;
+  border-style: solid white;
+  border-width: 2px;
+  
+  transform: translate(-1%, -1%);
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: black;
+  border-radius: 20px;
+}
+input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  width: 200px;
+  font-size: 1.5em;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #DC143C;
+  border-radius: 20px;
+}
+input[type=submit]:hover
+{
+    cursor: pointer;
+    background: ;
+    color: #000;
+}
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <P>
+      
+
+    <h1 style="font-size:50px">Pneumonia Detector</h1>
+    <h3 style="font-size:30px">Upload a picture of Lung X-Ray </h3>
+    </P>
+    <form method ='post' enctype=multipart/form-data>
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+</body>
+</html>
