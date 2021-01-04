@@ -9,7 +9,7 @@ from commons import get_tensor,get_model
 #from inference import get_flower_name
 
 @app.route('/', methods=['GET', 'POST'])
-def hello_world():
+def Pnuemonia_detect():
     if request.method == 'GET':
         return render_template('index.html', value='hi')
     if request.method == 'POST':
